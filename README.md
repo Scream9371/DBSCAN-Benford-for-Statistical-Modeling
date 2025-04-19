@@ -22,9 +22,9 @@
    - `dbscan_低风险与高风险下的描述性统计.csv`：TATA、GMI、SGAI、DEPI四项指标分别在高风险组和低风险组下的描述性统计信息。
 
 4. `Benford_factor.py`：计算各项指标的Benford因子。输出结果保存在 `result3` 目录中，内容包括：
-   - `benford_因子结果.csv`：对选取的TATA、GMI、SGAI、DEPI四项指标进行卡方检验，判断是否满足Benford定律，若不满足，则进行Benford因子的构造；
+   - `benford_检验结果.csv`：对选取的TATA、GMI、SGAI、DEPI四项指标进行卡方检验，判断是否满足Benford定律，若不满足，则进行Benford因子的构造；
    - `benford_频率对比.csv`：分别计算TATA、GMI、SGAI、DEPI四项指标的首位数字观测频率并与理论频率对比；
-   - `benford_检验结果.csv`：通过频率对比，得到每项指标首位数字观测频率并与理论频率差异最大的首位数字；
-   - `benford_差异最大的首位数字.csv`：对TATA、GMI、SGAI、DEPI四项指标生成Benford因子（异常样本标记为 1，正常样本为 0）。
+   - `benford_差异最大的首位数字.csv`：通过频率对比，得到每项指标首位数字观测频率并与理论频率差异最大的首位数字；
+   - `benford_因子结果.csv`：对TATA、GMI、SGAI、DEPI四项指标生成Benford因子（异常样本标记为 1，正常样本为 0）。
 
 5. `DBSCAN-Benford.py`：改进后的DBSCAN-Benford算法在本研究采用的数据集应用示例。输出结果保存在 `result4` 目录中，内容与 `dbscan.py` 的输出结果一致。
