@@ -28,3 +28,5 @@
    - `benford_因子结果.csv`：对TATA、GMI、SGAI、DEPI四项指标生成Benford因子（异常样本标记为 1，正常样本为 0）。
 
 5. `DBSCAN-Benford.py`：改进后的DBSCAN-Benford算法在本研究采用的数据集应用示例。输出结果保存在 `result4` 目录中，内容与 `dbscan.py` 的输出结果一致。
+
+6. `requirements.txt`：内含本项目的所有依赖项。
